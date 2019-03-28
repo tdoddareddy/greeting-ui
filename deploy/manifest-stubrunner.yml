@@ -1,0 +1,11 @@
+---
+applications:
+- name: stubrunner
+  services:
+    - service-registry 
+  env:
+    JAVA_OPTS: -Djava.security.egd=file:///dev/urandom
+#    DEBUG: "true"
+  instances: 0
+  routes:
+  - route: greeting-ui-stubrunner-cyi-test.apps.atherton.cf-app.com
