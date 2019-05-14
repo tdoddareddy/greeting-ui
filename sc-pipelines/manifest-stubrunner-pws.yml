@@ -9,5 +9,4 @@ applications:
     #SPRING_PROFILES_ACTIVE: c2c
     JAVA_OPTS: -Djava.security.egd=file:///dev/urandom
     TRUST_CERTS: api.run.pivotal.io
-    REPO_WITH_BINARIES: https://dl.bintray.com/tdoddareddy/maven-repo/io/pivotal/fortune-service/
     #DEBUG: "true"

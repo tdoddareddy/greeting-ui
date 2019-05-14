@@ -11,17 +11,6 @@
     <name>greeting-ui</name>
     <description>Demo project for Spring Boot</description>
 
-    <repositories>
-    <repository>
-        <id>bintray</id>
-        <name>tdoddareddy maven repo</name>
-        <url>https://dl.bintray.com/tdoddareddy/maven-repo/</url>
-        <snapshots>
-            <enabled>true</enabled>
-        </snapshots>
-    </repository>
-    </repositories>
-
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -38,7 +27,7 @@
         <distribution.management.release.id>bintray-tdoddareddy-maven-repo</distribution.management.release.id>
         <distribution.management.release.url>https://api.bintray.com/maven/tdoddareddy/maven-repo/greeting-ui</distribution.management.release.url>
         <!--Tell stubrunner app to start this stub-->
-       <!-- <stubrunner.ids>io.pivotal:fortune-service:1.0.0.M1-20190514_024224-VERSION:stubs:10000</stubrunner.ids> -->
+        <stubrunner.ids>io.pivotal:fortune-service:1.0.0.M1-20190514_024224-VERSION:stubs:10000</stubrunner.ids>
     </properties>
 
     <dependencies>
@@ -87,12 +76,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>io.pivotal</groupId>
-            <artifactId>fortune-service</artifactId>
-            <version>1.0.0.M1-20190514_024224-VERSION</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
