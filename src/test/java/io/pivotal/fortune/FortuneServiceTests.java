@@ -13,7 +13,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = GreetingUIApplication.class, webEnvironment = SpringBootTest.WebEnvironment.NONE,
         properties = {"spring.application.name=greeting-ui", "spring.cloud.circuit.breaker.enabled=false", "hystrix.stream.queue.enabled=false"})
-@AutoConfigureStubRunner(ids = {"io.pivotal:fortune-service:1.0.0.M1-20190509_144250-VERSION:stubs:10000"}, repositoryRoot = "https://dl.bintray.com/tdoddareddy/maven-repo/", stubsMode = StubRunnerProperties.StubsMode.REMOTE)
+@AutoConfigureStubRunner(ids = {"io.pivotal:fortune-service:1.0.0.M1-20190514_024224-VERSION:stubs:10000"}, repositoryRoot = "https://dl.bintray.com/tdoddareddy/maven-repo/", stubsMode = StubRunnerProperties.StubsMode.REMOTE)
 
 public class FortuneServiceTests {
 
