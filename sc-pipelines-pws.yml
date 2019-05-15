@@ -31,7 +31,7 @@ test:
       useExisting: true
     - name: stubrunner
       type: stubrunner
-      coordinates: io.pivotal:cloudfoundry-stub-runner-boot:0.0.3.M1
+      coordinates: io.pivotal:cloudfoundry-stub-runner-boot:0.0.5.M1
       pathToManifest: sc-pipelines/manifest-stubrunner-pws.yml
 
 stage:
